@@ -66,7 +66,7 @@ Omrails::Application.configure do
 	# config.active_record.auto_explain_threshold_in_seconds = 0.5
 
 	# Configure to use Amazon S3 service
-		onfig.paperclip_defaults = {
+	config.paperclip_defaults = {
 		:storage => :s3,
 		:s3_credentials => {
 		:bucket => ENV['AWS_BUCKET'],
